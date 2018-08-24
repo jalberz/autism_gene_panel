@@ -79,7 +79,7 @@ Note that latest frequency for Autism from the CDC is 1 in 59 children or *0.001
 
 I first attempted to work from VEP and validate through IGV, this proved difficult to result in hits with the 101 Gene List:
 
-**Gene/Feature: 	ENSR00000000377**
+##### Gene/Feature: 	ENSR00000000377
 - **rsId:** 	rs4648659
 - **Location:** 	chr1:2560903-2560903
 - **Consequence:** Regulatory Region Variant
@@ -91,7 +91,7 @@ I first attempted to work from VEP and validate through IGV, this proved difficu
 
 ![ENSG00000142606](/results/ENSG00000142606.png)
 
-**Gene/Feature: 	ENSG00000142606** 
+##### Gene/Feature: 	ENSG00000142606
 - **RsId:**   
 - **Location:** 
 - **Consequence:** Synonymous Variant
@@ -103,7 +103,7 @@ I first attempted to work from VEP and validate through IGV, this proved difficu
 
 Next I worked from IGV to identify areas in which there were matches between both the 101 Gene List and the Pevsner data
 
-**Gene/Feature:	DPP10** 
+##### Gene/Feature:	DPP10
 - **RsId:**   rs58524331
 - **Location:** 	chr2:115219375-115219375
 - **Consequence:**  5_prime_UTR_variant
@@ -118,7 +118,7 @@ NCBI description: This gene encodes a single-pass type II membrane protein that 
 
 ![ENSG00000142606](/results/gabrg1.png)
 
-**Gene/Feature: 	GABRG1**
+##### Gene/Feature: 	GABRG1
 - **RsId:**   rs6447493
 - **Location:** 	chr4:46042945-46042945	
 - **Consequence:**   3_prime_UTR_variant		
