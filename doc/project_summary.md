@@ -1,11 +1,10 @@
-## Jacob Albers
-#### Takehome Project
-## Introduction to Bioinformatics
+#### Jacob Albers
+#### Introduction to Bioinformatics
 
-## Takehome Project: Option 1 - Autism Variant Comparison
+# Takehome Project: Option 1 - Autism Variant Comparison
 
 
-# Project Set-up
+### Project Set-up
 
 Directory Layout:
 ```
@@ -48,11 +47,11 @@ Downloaded hg19.2bit and twoBitToFa to enable whole genome variant comparison. A
 [student@MSBI32400Lab4 data]$ samtools faidx hg19.fa
 ```
 
-# Bash Script to Convert BAM to VCF format
+### Bash Script to Convert BAM to VCF format
 
 In order to get Pevsner's BAM into a format with variant and other data, I built a simple script to convert the file into a number of VCF files with different amounts of additional information.
 
-See [proj_1.sh](../data/proj_1.sh)
+See [proj_1.sh](/data/proj_1.sh)
 
 Script Actions:
 - Call variants on `WebDocument_9-7_mysample1.bam` to `autism_panel.raw.vcf` using samtools mpileup
@@ -60,7 +59,7 @@ Script Actions:
 - Annotate `autism_panel.flt.vcf` into `autism_panel_snpeff.vcf` using SnpEff
 - Further annotate `autism_panel_snpeff.vcf` with Clinvar data into `autism_panel_snpeff_clinar.vcf` using SnpSift
 
-# Running VEP on VCF
+### Running VEP on VCF
 
 Taking the un-annotated `autism_panel.flt.vcf`, I uploaded the file to VEP with the following settings:
 
@@ -69,10 +68,10 @@ Taking the un-annotated `autism_panel.flt.vcf`, I uploaded the file to VEP with 
 - Added gnomAD (exome) allele frequencies
 - Include PubMed citations
 
-A copy of the full results is viewable at [autism_panel_results.vep.txt](../results/autism_panel_results.vep.txt)
+A copy of the full results is viewable at [autism_panel_results.vep.txt](/results/autism_panel_results.vep.txt)
 
 
-# Examining VEP output in comparison with 101 Gene List with IGV
+### Examining VEP output in comparison with 101 Gene List with IGV
 
 Due to the extensive set of sites output by VEP, here are 3 sample results from VEP compared with an IGV views of the 101 Autism gene list
 
@@ -80,60 +79,61 @@ Note that latest frequency for Autism from the CDC is 1 in 59 children or *0.001
 
 I first attempted to work from VEP and validate through IGV, this proved difficult to result in hits with the 101 Gene List:
 
-**Gene/Feature:** 	ENSR00000000377
-**rsId:** 	rs4648659
-**Location:** 	chr1:2560903-2560903
-**Consequence:** Regulatory Region Variant
-**Biotype:** Open Chromatin Region
-**HGVSp:** 
-**Substituion:** > C
-**gnomAD allele frequency:** 0.24
-**Appearance in 101 Gene List:** No
+- **Gene/Feature:** 	ENSR00000000377
+- **rsId:** 	rs4648659
+- **Location:** 	chr1:2560903-2560903
+- **Consequence:** Regulatory Region Variant
+- **Biotype:** Open Chromatin Region
+- **HGVSp:** 
+- **Substituion:** > C
+- **gnomAD allele frequency:** 0.24
+- **Appearance in 101 Gene List:** No
 
 
-**Gene:** 	ENSG00000142606
-**RsId:**   
-**Location:** 
-**Consequence:** Synonymous Variant
-**Biotype:** Protein Coding
-**HGVSp:** ENSP00000367668.3:p.Pro7=
-**Substituion:** > G
-**gnomAD allele frequency:** 0.6003
-**Appearance in 101 Gene List:** No
+- **Gene:** 	ENSG00000142606
+- **RsId:**   
+- **Location:** 
+- **Consequence:** Synonymous Variant
+- **Biotype:** Protein Coding
+- **HGVSp:** ENSP00000367668.3:p.Pro7=
+- **Substituion:** > G
+- **gnomAD allele frequency:** 0.6003
+- **Appearance in 101 Gene List:** No
 
 Next I worked from IGV to identify areas in which there were matches between both the 101 Gene List and the Pevsner data
 
-**Gene:** 	DPP10
-**RsId:**   rs58524331
-**Location:** 	chr2:115219375-115219375
-**Consequence:**  5_prime_UTR_variant
-**Exon**:	1/27
-**Biotype:** Protein Coding
-**HGVSp:** N/A
-**Substituion:** > T
-**gnomAD allele frequency:** 0.02
-**Appearance in 101 Gene List:** Yes
+- **Gene:** 	DPP10
+- **RsId:**   rs58524331
+- **Location:** 	chr2:115219375-115219375
+- **Consequence:**  5_prime_UTR_variant
+- **Exon**:	1/27
+- **Biotype:** Protein Coding
+- **HGVSp:** N/A
+- **Substituion:** > T
+- **gnomAD allele frequency:** 0.02
+- **Appearance in 101 Gene List:** Yes
 
 
-**Gene:** 	GABRG1
-**RsId:**   rs6447493
-**Location:** 	chr4:46042945-46042945	
-**Consequence:**   3_prime_UTR_variant		
-**Intron**:	5/8
-**Biotype:** Protein Coding
-**HGVSp:** 	ENST00000295452.4:c.60G>A
-**Substituion:** > A
-**gnomAD allele frequency:** 0.02
-**Appearance in 101 Gene List:** Yes
+- **Gene:** 	GABRG1
+- **RsId:**   rs6447493
+- **Location:** 	chr4:46042945-46042945	
+- **Consequence:**   3_prime_UTR_variant		
+- **Intron**:	5/8
+- **Biotype:** Protein Coding
+- **HGVSp:** 	ENST00000295452.4:c.60G>A
+- **Substituion:** > A
+- **gnomAD allele frequency:** 0.02
+- **Appearance in 101 Gene List:** Yes
 
 Both of these variants occurred within larger regions flagged by the 101 Gene List as a 
 
-# Trimming with Pevsner BED
+### Trimming with Pevsner BED
 
 I also trimmed the vcf for exons using the BED file generated in Lab 3
 
 ```
 samtools mpileup -B -C50 -f hg19.fa -l 101AutismGenelistExons.bed -o autism_panel.flt.vcf -v -u WebDocument_9-7_mysample1.bam
 ```
+
 
 
