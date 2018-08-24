@@ -73,13 +73,13 @@ A copy of the full results is viewable at [autism_panel_results.vep.txt](/result
 
 ### Examining VEP output in comparison with 101 Gene List with IGV
 
-Due to the extensive set of sites output by VEP, here are 3 sample results from VEP compared with an IGV views of the 101 Autism gene list
+Due to the extensive set of sites output by VEP, here are 4 sample results from VEP compared with an IGV views of the 101 Autism gene list
 
 Note that latest frequency for Autism from the CDC is 1 in 59 children or *0.00168* (range: 13.1-29.3)
 
 I first attempted to work from VEP and validate through IGV, this proved difficult to result in hits with the 101 Gene List:
 
-- **Gene/Feature:** 	ENSR00000000377
+**Gene/Feature: 	ENSR00000000377**
 - **rsId:** 	rs4648659
 - **Location:** 	chr1:2560903-2560903
 - **Consequence:** Regulatory Region Variant
@@ -89,8 +89,9 @@ I first attempted to work from VEP and validate through IGV, this proved difficu
 - **gnomAD allele frequency:** 0.24
 - **Appearance in 101 Gene List:** No
 
+![ENSG00000142606](/results/ENSG00000142606.png)
 
-- **Gene:** 	ENSG00000142606
+**Gene/Feature: 	ENSG00000142606** 
 - **RsId:**   
 - **Location:** 
 - **Consequence:** Synonymous Variant
@@ -102,7 +103,7 @@ I first attempted to work from VEP and validate through IGV, this proved difficu
 
 Next I worked from IGV to identify areas in which there were matches between both the 101 Gene List and the Pevsner data
 
-- **Gene:** 	DPP10
+**Gene/Feature:	DPP10** 
 - **RsId:**   rs58524331
 - **Location:** 	chr2:115219375-115219375
 - **Consequence:**  5_prime_UTR_variant
@@ -113,8 +114,11 @@ Next I worked from IGV to identify areas in which there were matches between bot
 - **gnomAD allele frequency:** 0.02
 - **Appearance in 101 Gene List:** Yes
 
+NCBI description: This gene encodes a single-pass type II membrane protein that is a member of the S9B family in clan SC of the serine proteases. This protein has no detectable protease activity, most likely due to the absence of the conserved serine residue normally present in the catalytic domain of serine proteases. However, it does bind specific voltage-gated potassium channels and alters their expression and biophysical properties. Mutations in this gene have been associated with asthma. Alternate transcriptional splice variants, encoding different isoforms, have been characterized.
 
-- **Gene:** 	GABRG1
+![ENSG00000142606](/results/gabrg1.png)
+
+**Gene/Feature: 	GABRG1**
 - **RsId:**   rs6447493
 - **Location:** 	chr4:46042945-46042945	
 - **Consequence:**   3_prime_UTR_variant		
@@ -125,7 +129,9 @@ Next I worked from IGV to identify areas in which there were matches between bot
 - **gnomAD allele frequency:** 0.02
 - **Appearance in 101 Gene List:** Yes
 
-Both of these variants occurred within larger regions flagged by the 101 Gene List as a 
+NCBI description: The protein encoded by this gene belongs to the ligand-gated ionic channel family. It is an integral membrane protein and plays an important role in inhibiting neurotransmission by binding to the benzodiazepine receptor and opening an integral chloride channel. This gene is clustered with three other family members on chromosome 4.
+
+Both of these variants occurred within larger regions flagged by the 101 Gene List.
 
 ### Trimming with Pevsner BED
 
