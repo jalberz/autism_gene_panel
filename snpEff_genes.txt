@@ -1,0 +1,63 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_HIGH	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_3_prime_UTR_variant	variants_effect_conservative_inframe_deletion	variants_effect_conservative_inframe_insertion	variants_effect_disruptive_inframe_deletion	variants_effect_disruptive_inframe_insertion	variants_effect_downstream_gene_variant	variants_effect_frameshift_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_non_coding_transcript_exon_variant	variants_effect_protein_protein_contact	variants_effect_sequence_feature	variants_effect_splice_acceptor_variant	variants_effect_splice_donor_variant	variants_effect_splice_region_variant	variants_effect_stop_gained	variants_effect_stop_lost	variants_effect_structural_interaction_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+ABL1	ABL1	NM_007313.2	protein_coding	30	3	21	0	0	0	0	0	0	0	0	0	19	0	0	5	0	0	0	0	0	30	0	0
+AKT1	AKT1	NM_001014431.1	protein_coding	28	2	5	0	0	0	0	0	0	0	0	1	5	0	0	2	1	0	1	0	0	27	0	0
+ALK	ALK	NM_004304.4	protein_coding	74	0	8	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	74	0	0
+APC	APC	NM_000038.5	protein_coding	174	3	17	0	0	0	0	0	0	0	85	0	12	0	43	5	0	0	0	46	0	0	3	0
+ATM	ATM	NM_000051.3	protein_coding	2	2	21	1	1	0	0	0	0	0	1	0	21	0	0	0	0	0	0	1	0	0	2	0
+BRAF	BRAF	NM_004333.4	protein_coding	478	22	72	0	0	1	2	2	2	0	0	0	65	0	5	18	0	0	1	1	0	472	5	0
+CDH1	CDH1	NM_004360.4	protein_coding	5	0	2	0	0	0	0	0	0	0	3	1	2	0	0	0	1	0	0	1	0	0	0	0
+CDKN2A	CDKN2A	NM_001195132.1	protein_coding	29	28	63	0	0	1	0	0	0	0	12	5	62	0	0	18	4	0	3	13	0	0	9	0
+CDKN2A-AS1	CDKN2A-AS1	NR_024274.1		0	0	0	102	0	0	0	0	0	102	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CSDE1	CSDE1	NM_001242891.1	protein_coding	0	0	0	34	0	0	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CSF1R	CSF1R	NM_001288705.1	protein_coding	5	0	5	1	1	0	0	0	0	0	0	0	5	0	0	0	0	0	0	3	0	2	0	0
+CTNNB1	CTNNB1	NM_001098209.1	protein_coding	2	4	66	0	0	2	0	3	0	0	1	0	61	0	0	0	0	0	0	1	0	0	4	0
+DEAR	DEAR	NR_104273.1		0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+DERL3	DERL3	NM_001135751.1	protein_coding	0	0	0	5	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+EGFR	EGFR	NM_005228.3	protein_coding	2404	62	121	0	0	8	5	15	3	0	0	0	88	0	0	64	0	0	3	1	0	2403	5	0
+EGFR-AS1	EGFR-AS1	NR_047551.1		0	0	0	89	0	0	0	0	0	41	0	0	0	31	0	0	0	0	0	0	0	0	0	17
+ERBB2	ERBB2	NM_004448.3	protein_coding	6	0	18	0	0	0	2	0	5	0	0	0	11	0	0	0	0	0	1	0	0	6	0	0
+ERBB4	ERBB4	NM_005235.2	protein_coding	0	2	14	1	0	0	0	0	0	0	0	1	13	0	0	3	0	0	1	0	0	0	0	0
+EZH2	EZH2	NM_004456.4	protein_coding	0	0	7	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0
+FBXW7	FBXW7	NM_033632.3	protein_coding	2	0	11	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	2	0	0	0	0
+FGFR1	FGFR1	NM_001174067.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0
+FGFR2	FGFR2	NM_022970.3	protein_coding	2	0	8	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	2	0	0
+FGFR3	FGFR3	NM_001163213.1	protein_coding	1	4	14	0	0	0	0	0	0	0	1	0	15	0	0	1	0	0	1	0	0	0	3	0
+FLT3	FLT3	NM_004119.2	protein_coding	7	9	33	0	0	1	7	1	2	0	0	1	18	0	0	11	0	0	1	0	0	7	1	0
+GNA11	GNA11	NM_002067.4	protein_coding	0	5	5	0	0	0	0	0	0	0	0	0	5	0	0	5	0	0	0	0	0	0	0	0
+GNAQ	GNAQ	NM_002072.4	protein_coding	0	6	6	0	0	0	0	0	0	0	0	0	6	0	0	6	0	0	0	0	0	0	0	0
+GNAS	GNAS	NM_080425.3	protein_coding	0	0	9	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0
+HMGXB3	HMGXB3	NM_014983.2	protein_coding	0	0	0	7	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+HNF1A	HNF1A	NM_001306179.1	protein_coding	0	0	10	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0
+HRAS	HRAS	NM_001130442.2	protein_coding	1004	2	22	0	0	0	0	0	0	0	0	0	22	0	182	0	0	0	0	0	0	822	2	0
+IDH1	IDH1	NM_001282386.1	protein_coding	381	1	14	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	381	1	0
+IDH2	IDH2	NM_002168.3	protein_coding	16	6	12	0	0	0	0	0	0	0	0	0	12	0	0	6	0	0	0	0	0	16	0	0
+JAK2	JAK2	NM_001322194.1	protein_coding	0	0	5	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+JAK3	JAK3	NM_000215.3	protein_coding	0	1	4	1	0	0	0	0	0	0	0	2	4	0	0	0	0	0	1	0	0	0	0	0
+KDR	KDR	NM_002253.2	protein_coding	7	0	11	0	0	1	0	0	0	0	0	0	9	0	0	1	0	0	1	1	0	6	0	0
+KIT	KIT	NM_000222.2	protein_coding	596	94	156	0	0	27	2	27	1	0	0	0	63	0	75	126	0	0	1	4	0	517	7	0
+KLLN	KLLN	NM_001126049.1	protein_coding	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12
+KRAS	KRAS	NM_033360.3	protein_coding	4779	14	59	0	0	0	4	0	0	0	0	0	53	0	0	10	0	0	0	0	0	4779	6	0
+LETM1	LETM1	NM_012318.2	protein_coding	0	0	0	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LRRC56	LRRC56	NM_198075.3	protein_coding	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24
+MET	MET	NM_001127500.2	protein_coding	1	3	19	0	0	0	0	0	0	0	1	2	15	0	0	5	1	0	2	0	0	0	1	0
+MIEN1	MIEN1	NM_032339.4	protein_coding	0	0	0	18	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+MIR4728	MIR4728	NR_039881.2		0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18
+MLH1	MLH1	NM_000249.3	protein_coding	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+MPL	MPL	NM_005373.2	protein_coding	0	0	10	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0
+NOTCH1	NOTCH1	NM_017617.4	protein_coding	6	0	13	0	0	1	0	0	0	0	3	0	12	0	0	0	0	0	0	3	0	0	0	0
+NPM1	NPM1	NM_002520.6	protein_coding	22	0	1	1	1	0	0	0	0	0	22	0	1	0	0	0	0	0	0	0	0	0	0	0
+NRAS	NRAS	NM_002524.4	protein_coding	9	4	32	0	0	0	0	0	0	0	0	0	32	0	0	1	0	0	0	0	0	9	3	0
+PDGFRA	PDGFRA	NM_006206.4	protein_coding	1	2	23	0	0	4	0	9	0	0	1	0	12	0	0	0	0	0	0	0	0	0	2	0
+PIK3CA	PIK3CA	NM_006218.3	protein_coding	355	19	86	3	1	2	0	5	1	0	1	3	78	0	149	17	0	0	2	0	2	204	1	0
+PTEN	PTEN	NM_001304717.2	protein_coding	71	2	71	1	0	3	0	2	0	0	41	12	66	0	0	0	4	5	7	23	0	0	0	0
+PTPN11	PTPN11	NM_002834.3	protein_coding	0	2	28	0	0	0	0	0	0	0	0	0	28	0	0	2	0	0	0	0	0	0	0	0
+RB1	RB1	NM_000321.2	protein_coding	97	2	3	0	0	0	0	0	0	0	2	2	3	0	0	2	2	0	0	11	0	82	0	0
+RET	RET	NM_020975.4	protein_coding	21	1	17	0	0	2	0	3	0	0	0	0	12	0	0	0	0	0	0	0	0	21	1	0
+SMAD4	SMAD4	NM_005359.5	protein_coding	127	7	14	0	0	1	0	0	0	0	6	1	12	0	9	7	0	0	1	10	0	102	0	0
+SMARCB1	SMARCB1	NM_001317946.1	protein_coding	7	0	2	1	0	0	0	0	0	0	2	1	2	0	0	0	0	0	0	5	0	0	0	0
+SMO	SMO	NM_005631.4	protein_coding	0	0	5	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0
+SRC	SRC	NM_005417.4	protein_coding	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+STK11	STK11	NM_000455.4	protein_coding	29	4	9	1	0	0	0	0	0	0	6	1	9	0	0	3	0	0	2	6	0	17	2	0
+TP53	TP53	NM_000546.5	protein_coding	68947	99	704	1	0	18	0	8	0	0	99	21	678	0	0	0	11	5	19	66	0	68767	95	0
+VHL	VHL	NM_000551.3	protein_coding	4461	19	61	0	0	1	0	0	0	0	36	6	60	0	678	14	6	0	4	13	0	3729	5	0
